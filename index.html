@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barber Wolf - Estilo para tu Cabello</title>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/e6b8371d90.js" crossorigin="anonymous"></script>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/fabicon.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Sección de encabezado -->
+    <section id="header">
+        <div class="nav-bar">
+            <img src="assets/logo.png" alt="logo" class="logo">
+            <img src="assets/menu.png" alt="menú" class="menu" onclick="openmenu()">
+        </div>
+
+        <nav>
+            <ul class="nav-menu" id="sidemenu">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">POR QUÉ ELEGIRNOS</a></li>
+                <li><a href="#">SERVICIOS</a></li>
+                <li><a href="#">TESTIMONIOS</a></li>
+                <li><a href="#">NUESTRO EQUIPO</a></li>
+
+                <img src="assets/close.png" alt="cerrar" class="close" onclick="closemenu()">
+            </ul>
+        </nav>
+
+        <div class="header-contents">
+            <h1>Barber Wolf Peluquería</h1>
+            <p>¡Dale estilo a tu cabello, renová tu imagen!</p>
+            <div class="header-btn">
+                <a href="#"><span></span>Conocé Más</a>
+                <a href="#"><span></span>Reservá tu Turno</a>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de características -->
+    <section id="features">
+        <div class="title-text">
+            <p>POR QUÉ ELEGIRNOS</p>
+            <h2>¿Por qué elegir nuestra barbería?</h2>
+        </div>
+        <div class="feature-contents">
+            <div class="feature-text">
+                <div class="feature">
+                    <h3>Personal con experiencia</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                        <span class="feature-details">Contamos con barberos y estilistas capacitados, apasionados por su trabajo y atentos a las últimas tendencias.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Reservá tu turno online</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-check-to-slot"></i></span>
+                        <span class="feature-details">Podés reservar tu turno de manera rápida y sencilla desde tu celular o computadora, sin esperas.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Precios accesibles</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-bangladeshi-taka-sign"></i></span>
+                        <span class="feature-details">Ofrecemos servicios de calidad a precios justos, para que todos puedan lucir su mejor versión.</span>
+                    </div>
+                </div>
+                <div class="feature">
+                    <h3>Descuentos a jubilados</h3>
+                    <div class="row">
+                        <span class="feature-icon"><i class="fa-solid fa-percent"></i></span>
+                        <span class="feature-details">Consultá por nuestros descuentos especiales para jubilados. ¡Queremos que todos puedan disfrutar de un buen corte!</span>
+                    </div>
+                </div>
+            </div>
+            <div class="feature-img">
+                <img src="assets/barber-man.jpg" alt="barbero">
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="services">
+        <div class="title-text">
+            <p>SERVICIOS</p>
+            <h2>Lo mejor para vos</h2>
+        </div>
+
+        <div class="services-content">
+            <div class="service">
+                <img src="assets/pic-1.jpg" alt="Corte de cabello">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Peinados</h3>
+                        <hr>
+                        <p>Te ayudamos a encontrar el look que mejor va con tu estilo y personalidad. ¡Animate a un cambio!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-2.jpg" alt="Barba">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Arreglo de barba</h3>
+                        <hr>
+                        <p>Barbas prolijas, recortes precisos y asesoramiento para que luzcas siempre impecable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-3.jpg" alt="Corte">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Corte de cabello</h3>
+                        <hr>
+                        <p>Cortes clásicos y modernos para todas las edades. Nos adaptamos a tu preferencia.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="service">
+                <img src="assets/pic-4.jpg" alt="Shampoo en seco">
+                <div class="overlay">
+                    <div class="overlay-content">
+                        <h3>Shampoo en seco</h3>
+                        <hr>
+                        <p>Ideal para quienes buscan limpieza y frescura rápida, sin mojar el cabello.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de testimonios -->
+    <section id="testimonials">
+        <div class="title-text">
+            <p>TESTIMONIOS</p>
+            <h2>Lo que dicen nuestros clientes</h2>
+        </div>
+        <div class="testimonials-content">
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/img-1.jpg" alt="cliente-1">
+                    </div>
+                    <div class="user">
+                        <h4>JUAN PÉREZ <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@juanperez</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>Excelente atención y muy buenos precios. Siempre salgo conforme con mi corte. ¡Recomendado!</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/img-2.jpg" alt="cliente-2">
+                    </div>
+                    <div class="user">
+                        <h4>CARLA GÓMEZ <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@carlagomez</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>Reservé mi turno online y fue rapidísimo. El personal es muy profesional y amable.</p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <div class="header">
+                    <div class="img">
+                        <img src="assets/img-3.jpg" alt="cliente-3">
+                    </div>
+                    <div class="user">
+                        <h4>LUCAS FERNÁNDEZ <i class="fa-brands fa-twitter"></i> </h4>
+                        <p>@lucasfdez</p>
+                    </div>
+                </div>
+                <div class="body">
+                    <p>Me asesoraron sobre el mejor corte para mi tipo de rostro. ¡Muy recomendable!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sección de contacto / pie de página -->
+    <section id="footer">
+        <img src="assets/footer-img.png" alt="imagen-pie" class="footer-img">
+        <div class="title-text">
+            <p>Contacto</p>
+            <h2>¡Visitá la barbería hoy!</h2>
+        </div>
+        <div class="footer-content">
+            <div class="left">
+                <h4>Horarios de atención</h4>
+                <p><i class="fa-solid fa-clock"></i>Martes a Domingos de 10 a 14 hs</p>
+         <p><i class="fa-solid fa-clock"></i>Viernes de 10 a 20 hs de corrido</p>
+        
+            </div>
+            <div class="right">
+                <h4>Contactanos</h4>
+                <p>San Juan 1210, Mar del Plata<i class="fa-solid fa-location-dot"></i></p>
+                <p>wolfbarber@gmail.com<i class="fa-solid fa-envelope"></i></p>
+                <p>2235805386<i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <p>Copyright ©️ Barbería. Hecho con <i class="fa-solid fa-heart"></i> para vos.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-600px";
+        }
+    </script>
+</body>
+
+</html>
